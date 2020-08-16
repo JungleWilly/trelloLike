@@ -1,0 +1,25 @@
+mat-card {
+  min-width: 9.5rem;
+  max-width: 30rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.server-error {
+  margin: 0.5rem 0;
+}
+
+input {
+  height: 2rem;
+  div.mat-form-field-infix {
+    padding: 0.3rem 0;
+    input.mat-input-element {
+      vertical-align: top;
+    }
+  }
+}
