@@ -45,7 +45,7 @@ $custom-orange: (
 );
 
 $trelloLike-primary: mat-palette($custom-orange);
-$trelloLike-accent: mat-palette($mat-pink, A200, A100, A400);
+$trelloLike-accent: mat-palette($mat-green, A200, A100, A400);
 
 // The warn palette is optional (defaults to red).
 $trelloLike-warn: mat-palette($mat-red);
