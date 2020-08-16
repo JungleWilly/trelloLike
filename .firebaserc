@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "trellolike-42bf8": {
+      "hosting": {
+        "trelloLike": [
+          "trellolike-42bf8"
+        ]
+      }
+    }
+  }
+}

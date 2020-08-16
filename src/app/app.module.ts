@@ -8,6 +8,13 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { SharedModule } from './shared/shared.module';
 import { HomePageComponent } from './home-page/home-page.component';
 
+import { environment } from '../environments/environment';
+
+// firebase Import
+import { AngularFireModule } from '@angular/fire';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+
 @NgModule({
   declarations: [AppComponent, HomePageComponent],
   imports: [
@@ -16,6 +23,9 @@ import { HomePageComponent } from './home-page/home-page.component';
     BrowserAnimationsModule,
     LayoutModule,
     SharedModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule,
+    AngularFireAuthModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
